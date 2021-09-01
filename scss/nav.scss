@@ -1,0 +1,33 @@
+nav {
+  min-height: 100px;
+  background-color: #34647e;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-family: gill;
+    transition: all 1s, ease 0.5s;
+  }
+  a:hover {
+    color: #afcad8;
+    list-style: 5px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  nav {
+    flex-direction: column;
+    height: 100vh;
+
+    a {
+      text-decoration: none;
+      color: white;
+      text-transform: uppercase;
+    }
+  }
+}

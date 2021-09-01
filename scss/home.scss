@@ -1,0 +1,174 @@
+.home {
+  //   background-color: aquamarine;
+  max-width: 100%;
+  min-height: 400px;
+
+  h1 {
+    margin-top: 20px;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: gill;
+  }
+
+  &__image-holder {
+    padding-top: 30px;
+    // background-color: cadetblue;
+    max-width: 800%;
+    min-height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+
+    &__frame {
+      //   background-color: coral;
+      max-width: 400px;
+      min-height: 450px;
+
+      &__text-holder {
+        max-width: 400px;
+        min-height: 100px;
+        // background-color: cornflowerblue;
+        padding: 10px;
+        text-align: center;
+        font-family: open;
+      }
+
+      &__image1 {
+        background-image: url(../images/kid2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 400px;
+        height: 500px;
+        transition: all 1s, ease 0.5s;
+      }
+      &__image1:hover {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../images/kid2.jpg);
+      }
+      &__image2 {
+        background-image: url(../images/family1.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 400px;
+        height: 500px;
+      }
+      &__image2:hover {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../images/family1.png);
+      }
+      &__image3 {
+        background-image: url(../images/kid1.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 400px;
+        height: 500px;
+      }
+      &__image3:hover {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../images/kid1.jpg);
+      }
+
+      &__image4 {
+        background-image: url(../images/food.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 400px;
+        height: 500px;
+      }
+      &__image4:hover {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../images/food.jpg);
+      }
+      &__image5 {
+        background-image: url(../images/food2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 400px;
+        height: 500px;
+      }
+      &__image5:hover {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../images/food2.jpg);
+      }
+    }
+  }
+}
+.smallsection {
+  width: 100%;
+  height: 250px;
+  // background-color: #a8b8c0;
+  background-image: url(../images/wave.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  &__btn {
+    width: 200px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #34647e;
+    border-radius: 10px;
+    transition: all 1s, ease 0.5s;
+
+    a {
+      text-decoration: none;
+      color: white;
+      font-family: gill;
+      transition: all 1s, ease 0.5s;
+    }
+    a:hover {
+      color: #34647e;
+      list-style: 5px;
+      font-size: 20px;
+    }
+  }
+  .smallsection__btn:hover {
+    background-color: white;
+    list-style: 5px;
+    font-size: 20px;
+  }
+}
+@media (max-width: 1500px) {
+  .home__image-holder {
+    flex-direction: column;
+    min-height: 100vh;
+    // background-color: aqua;
+
+    &__frame {
+      max-width: 500px;
+      margin: 0 auto;
+      padding-bottom: 50px;
+    }
+  }
+}

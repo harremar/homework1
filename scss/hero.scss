@@ -1,0 +1,197 @@
+.hero {
+  max-width: 100%;
+  min-height: 700px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../images/kid31.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+
+  &__content {
+    // background-color: blue;
+    max-width: 500px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+
+    &__textcolor {
+      color: white;
+
+      &__title {
+        font-size: 70px;
+        // background-color: burlywood;
+        max-width: 600px;
+        text-align: center;
+        font-family: gill;
+      }
+      &__subtitle {
+        font-size: 20px;
+        margin: 0 auto;
+        max-width: 220px;
+        font-family: open;
+        // background-color: blueviolet;
+      }
+
+      &__logo {
+        background-image: url(../images/splash.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        margin: 20px auto;
+      }
+    }
+  }
+}
+.hero2 {
+  max-width: 100%;
+  min-height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../images/slide.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+
+  &__content {
+    // background-color: blue;
+    max-width: 500px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    &__textcolor {
+      color: white;
+
+      &__title {
+        font-size: 70px;
+        // background-color: burlywood;
+        max-width: 600px;
+        text-align: center;
+        font-family: gill;
+      }
+
+      &__logo {
+        background-image: url(../images/splash.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        margin: 20px auto;
+      }
+    }
+  }
+}
+
+.hero3 {
+  max-width: 100%;
+  min-height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../images/waterpark.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+
+  &__content {
+    // background-color: blue;
+    max-width: 500px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    &__textcolor {
+      color: white;
+
+      &__title {
+        font-size: 70px;
+        // background-color: burlywood;
+        max-width: 600px;
+        text-align: center;
+        font-family: gill;
+      }
+
+      &__logo {
+        background-image: url(../images/splash.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        margin: 20px auto;
+      }
+    }
+  }
+}
+
+.hero4 {
+  max-width: 100%;
+  min-height: 500px;
+  margin: 0 auto;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../images/family2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 20px;
+
+  &__content {
+    // background-color: blue;
+    max-width: 500px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    &__textcolor {
+      color: white;
+
+      &__title {
+        font-size: 70px;
+        // background-color: burlywood;
+        max-width: 600px;
+        text-align: center;
+        font-family: gill;
+      }
+
+      &__logo {
+        background-image: url(../images/splash.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 70px;
+        height: 70px;
+        margin: 20px auto;
+      }
+    }
+  }
+}

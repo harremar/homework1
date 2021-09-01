@@ -1,0 +1,254 @@
+.pass {
+  max-width: 100%;
+  min-height: 200px;
+  //   background-color: yellow;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+
+  &__pass-holder {
+    padding-top: 30px;
+    // background-color: aquamarine;
+    max-width: 100%;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+
+    &__text-holder {
+      width: 350px;
+      min-height: 200px;
+      //   background-color: cornflowerblue;
+      padding: 10px;
+      text-align: center;
+      font-family: open;
+      transform: 0.5s;
+      a {
+        text-decoration: none;
+        color: black;
+        h1 {
+          font-size: 30px;
+        }
+        h2 {
+          font-size: 24px;
+          font-family: open;
+        }
+        p {
+          font-family: open;
+        }
+      }
+      a:hover {
+        color: #34647e;
+      }
+
+      &__children {
+        background-image: url(../images/kidpool.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      &__children:hover {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../images/kidpool.jpg);
+      }
+      &__adult {
+        background-image: url(../images/adult.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      &__adult:hover {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../images/adult.jpg);
+      }
+      &__baby {
+        background-image: url(../images/baby.jpg.crdownload);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      &__baby:hover {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../images/baby.jpg.crdownload);
+      }
+      &__dive {
+        background-image: url(../images/diving.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      &__dive:hover {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../images/diving.jpg);
+      }
+      &__bucket {
+        background-image: url(../images/bucket.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      &__bucket:hover {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../images/bucket.jpg);
+      }
+      &__tornado {
+        background-image: url(../images/tornado.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      &__tornado:hover {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../images/tornado.jpg);
+      }
+
+      &__lifeguard {
+        background-image: url(../images/lifeguards.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      &__lifeguard:hover {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../images/lifeguards.jpg);
+      }
+      &__obs {
+        background-image: url(../images/obs.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+        padding-bottom: 10px;
+      }
+      &__obs:hover {
+        background-image: linear-gradient(
+            to bottom,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../images/obs.jpg);
+      }
+    }
+  }
+}
+
+.special {
+  max-width: 100%;
+  min-height: 500px;
+  //   background-color: hotpink;
+  margin-top: 50px;
+
+  &__image {
+    background-image: url(../images/kid4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1000px;
+    min-height: 400px;
+    margin: 0 auto;
+  }
+  &__image2 {
+    background-image: url(../images/pool.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1000px;
+    min-height: 400px;
+    margin: 0 auto;
+  }
+
+  &__text-holder {
+    // background-color: indigo;
+    margin: 30px auto;
+    max-width: 600px;
+    min-height: 400px;
+
+    h1 {
+      font-family: gill;
+      font-size: 40px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    h2 {
+      font-size: 24px;
+      font-family: open;
+    }
+    p {
+      //   padding-top: 30px;
+      padding-top: 30px;
+      font-family: open;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 1500px) {
+  .pass {
+    flex-direction: column;
+    min-height: 500px;
+    // background-color: aqua;
+
+    &__pass-holder {
+      max-width: 500px;
+      margin: 0 auto;
+      padding-bottom: 50px;
+    }
+  }
+}

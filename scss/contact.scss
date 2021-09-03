@@ -1,0 +1,123 @@
+.contact {
+  max-width: 80%;
+  min-height: 800px;
+  //   background-color: aqua;
+  margin: 0 auto;
+
+  &__title {
+    max-width: 100%;
+    min-height: 100px;
+    // background-color: blue;
+
+    h1 {
+      text-align: center;
+      font-size: 40px;
+      font-family: gill;
+      padding-top: 30px;
+    }
+  }
+
+  &__subtitle {
+    max-width: 100%;
+    min-height: 40px;
+    // background-color: navy;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #34647e;
+
+    p {
+      font-family: open;
+      font-size: 18px;
+    }
+  }
+
+  &__form {
+    max-width: 500px;
+    min-height: 100px;
+    margin: 0 auto;
+    // background-color: yellowgreen;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    h2 {
+      font-family: open;
+      font-size: 24px;
+      width: 200px;
+    }
+
+    input {
+      display: block;
+      width: 100%;
+      height: 40px;
+      border: #34647e 3px solid;
+      padding-top: 20px;
+      font-size: 16px;
+    }
+  }
+  &__message {
+    max-width: 500px;
+    min-height: 100px;
+    margin: 0 auto;
+    // background-color: yellowgreen;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    h2 {
+      font-family: open;
+      font-size: 24px;
+      width: 200px;
+    }
+
+    input {
+      display: block;
+      width: 100%;
+      height: 100px;
+      border: #34647e 3px solid;
+      padding-top: 20px;
+      font-size: 16px;
+      //   padding-left: 20px;
+    }
+  }
+
+  &__button {
+    width: 150px;
+    margin: 20px auto;
+    height: 50px;
+    background-color: #34647e;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: all 1s, ease 0.5s;
+
+    a {
+      text-decoration: none;
+      color: white;
+      font-family: gill;
+      font-size: 20px;
+      transition: all 1s, ease 0.5s;
+    }
+  }
+  &__button:hover {
+    background-color: white;
+    border: #34647e 3px solid;
+
+    a:hover {
+      color: #34647e;
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact__message {
+    width: 350px;
+    input {
+      width: 350px;
+    }
+  }
+  .contact__form {
+    width: 350px;
+    input {
+      width: 350px;
+    }
+  }
+}

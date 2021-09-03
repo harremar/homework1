@@ -34,18 +34,22 @@
   min-height: 300px;
   background-color: #34647e;
   margin: 50px auto;
-  h1 {
-    margin: 0 auto;
-    text-align: center;
-    font-family: gill;
-    font-size: 60px;
-    padding-bottom: 30px;
-    padding-top: 80px;
-    color: white;
-    transition: all 0.5s;
-  }
-  h1:hover {
-    color: #afcad8;
+  a {
+    text-decoration: none;
+    h1 {
+      margin: 0 auto;
+      text-align: center;
+      font-family: gill;
+      font-size: 55px;
+      padding-bottom: 30px;
+      padding-top: 80px;
+      color: white;
+      transition: all 0.5s;
+    }
+    h1:hover {
+      color: #afcad8;
+      font-size: 65px;
+    }
   }
   h2 {
     margin: 0 auto;
@@ -70,19 +74,23 @@
   min-height: 300px;
   background-color: #afcad8;
   margin: 50px auto;
-  h1 {
-    margin: 0 auto;
-    text-align: center;
-    font-family: gill;
-    font-size: 60px;
-    // background-color: hotpink;
-    padding-bottom: 30px;
-    padding-top: 80px;
-    color: #34647e;
-    transition: all 0.5s;
-  }
-  h1:hover {
-    color: white;
+  a {
+    text-decoration: none;
+    h1 {
+      margin: 0 auto;
+      text-align: center;
+      font-family: gill;
+      font-size: 60px;
+      // background-color: hotpink;
+      padding-bottom: 30px;
+      padding-top: 80px;
+      color: #34647e;
+      transition: all 0.5s;
+    }
+    h1:hover {
+      color: white;
+      font-size: 65px;
+    }
   }
   h2 {
     margin: 0 auto;
@@ -99,5 +107,20 @@
     font-size: 16px;
     padding-bottom: 20px;
     color: #34647e;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .info {
+    max-width: 400px;
+    // background-color: yellowgreen;
+  }
+  .info2 {
+    max-width: 400px;
+    // background-color: yellowgreen;
+  }
+  .info3 {
+    max-width: 400px;
+    // background-color: yellowgreen;
   }
 }

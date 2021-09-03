@@ -547,19 +547,23 @@ footer {
   background-color: #34647e;
   margin: 50px auto;
 }
-.info2 h1 {
+.info2 a {
+  text-decoration: none;
+}
+.info2 a h1 {
   margin: 0 auto;
   text-align: center;
   font-family: gill;
-  font-size: 60px;
+  font-size: 55px;
   padding-bottom: 30px;
   padding-top: 80px;
   color: white;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-.info2 h1:hover {
+.info2 a h1:hover {
   color: #afcad8;
+  font-size: 65px;
 }
 .info2 h2 {
   margin: 0 auto;
@@ -584,7 +588,10 @@ footer {
   background-color: #afcad8;
   margin: 50px auto;
 }
-.info3 h1 {
+.info3 a {
+  text-decoration: none;
+}
+.info3 a h1 {
   margin: 0 auto;
   text-align: center;
   font-family: gill;
@@ -595,8 +602,9 @@ footer {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
-.info3 h1:hover {
+.info3 a h1:hover {
   color: white;
+  font-size: 65px;
 }
 .info3 h2 {
   margin: 0 auto;
@@ -615,6 +623,19 @@ footer {
   color: #34647e;
 }
 
+@media only screen and (max-width: 800px) {
+  .info {
+    max-width: 400px;
+  }
+
+  .info2 {
+    max-width: 400px;
+  }
+
+  .info3 {
+    max-width: 400px;
+  }
+}
 .pass {
   max-width: 100%;
   min-height: 200px;
@@ -692,7 +713,7 @@ footer {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/adult.jpg);
 }
 .pass__pass-holder__text-holder__baby {
-  background-image: url(../images/baby.jpg.crdownload);
+  background-image: url(../images/baby.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -702,8 +723,8 @@ footer {
   padding-bottom: 10px;
 }
 .pass__pass-holder__text-holder__baby:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/baby.jpg.crdownload);
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/baby.jpg.crdownload);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url(../images/baby.jpg);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/baby.jpg);
 }
 .pass__pass-holder__text-holder__dive {
   background-image: url(../images/diving.jpg);
@@ -832,5 +853,127 @@ footer {
     max-width: 500px;
     margin: 0 auto;
     padding-bottom: 50px;
+  }
+}
+.contact {
+  max-width: 80%;
+  min-height: 800px;
+  margin: 0 auto;
+}
+.contact__title {
+  max-width: 100%;
+  min-height: 100px;
+}
+.contact__title h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: gill;
+  padding-top: 30px;
+}
+.contact__subtitle {
+  max-width: 100%;
+  min-height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  color: #34647e;
+}
+.contact__subtitle p {
+  font-family: open;
+  font-size: 18px;
+}
+.contact__form {
+  max-width: 500px;
+  min-height: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.contact__form h2 {
+  font-family: open;
+  font-size: 24px;
+  width: 200px;
+}
+.contact__form input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: #34647e 3px solid;
+  padding-top: 20px;
+  font-size: 16px;
+}
+.contact__message {
+  max-width: 500px;
+  min-height: 100px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.contact__message h2 {
+  font-family: open;
+  font-size: 24px;
+  width: 200px;
+}
+.contact__message input {
+  display: block;
+  width: 100%;
+  height: 100px;
+  border: #34647e 3px solid;
+  padding-top: 20px;
+  font-size: 16px;
+}
+.contact__button {
+  width: 150px;
+  margin: 20px auto;
+  height: 50px;
+  background-color: #34647e;
+  border-radius: 5px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: all 1s, ease 0.5s;
+  transition: all 1s, ease 0.5s;
+}
+.contact__button a {
+  text-decoration: none;
+  color: white;
+  font-family: gill;
+  font-size: 20px;
+  -webkit-transition: all 1s, ease 0.5s;
+  transition: all 1s, ease 0.5s;
+}
+.contact__button:hover {
+  background-color: white;
+  border: #34647e 3px solid;
+}
+.contact__button:hover a:hover {
+  color: #34647e;
+}
+
+@media only screen and (max-width: 800px) {
+  .contact__message {
+    width: 350px;
+  }
+  .contact__message input {
+    width: 350px;
+  }
+
+  .contact__form {
+    width: 350px;
+  }
+  .contact__form input {
+    width: 350px;
   }
 }

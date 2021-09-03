@@ -519,10 +519,16 @@ footer {
   margin: 0 auto;
   text-align: center;
   font-family: gill;
-  font-size: 60px;
+  font-size: 55px;
   padding-bottom: 30px;
   padding-top: 80px;
   color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.info h1:hover {
+  font-size: 65px;
+  color: #afcad8;
 }
 .info h2 {
   margin: 0 auto;

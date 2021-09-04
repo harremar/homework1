@@ -1,8 +1,7 @@
 # homework1
 
-## This is homework one created by Marielle Harrell
+## This is HW 1 created by Marielle Harrell
+
+https://harremar.github.io/homework1/
 
 A 4 page website using BEM Model
-
-Link to HW1
-https://harremar.github.io/homework1/

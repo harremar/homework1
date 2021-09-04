@@ -1,3 +1,4 @@
+//THIS SCSS IF FOR BOTH RIDES AND TICKETS PAGE CAUSE THEY HAVE THE SAME LAYOUT
 .pass {
   max-width: 100%;
   min-height: 200px;
@@ -40,6 +41,7 @@
         color: #34647e;
       }
 
+      //THESE ARE THE IMAGES ON THE PAGE
       &__children {
         background-image: url(../images/kidpool.jpg);
         background-position: center;
@@ -189,6 +191,7 @@
   }
 }
 
+//FOR SPECIAL EVENTS ON TICKET PAGE
 .special {
   max-width: 100%;
   min-height: 500px;

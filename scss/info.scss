@@ -1,3 +1,4 @@
+//INFO FOR PARK HOURS
 .info {
   max-width: 60%;
   min-height: 500px;
@@ -13,6 +14,7 @@
     color: white;
     transition: all 0.5s;
   }
+  //HOVER TO SHOW THAT IT IS CLICKABLE. NO PAGE FOR IT
   h1:hover {
     font-size: 65px;
     color: #afcad8;
@@ -34,6 +36,8 @@
     color: white;
   }
 }
+
+//INFO FOR CONTACT US. HOVER BRINGS TO CONTACT PAGE
 .info2 {
   max-width: 60%;
   min-height: 300px;
@@ -74,6 +78,7 @@
   }
 }
 
+//INFO ON LOCATION. BRINGS TO MAP DIRECTIONS OF DISNEY
 .info3 {
   max-width: 60%;
   min-height: 300px;
